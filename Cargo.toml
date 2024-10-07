@@ -12,11 +12,11 @@ keywords = ["icons", "leptos"]
 categories = ["web-programming"]
 
 [dev-dependencies]
-icondata = "0.3"
+icondata = "0.4"
 
 [dependencies]
 icondata_core = "0.1"
-leptos = "0.6"
+leptos = {git = "https://github.com/leptos-rs/leptos", branch = "main"}
 
 # For -Zminimal-versions
 [target.'cfg(any())'.dependencies]
