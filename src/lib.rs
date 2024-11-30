@@ -63,7 +63,6 @@ where
         let icon = icon.get();
 
         let classes = class.get().map(|c| c.get().to_string());
-
         let svg: HtmlElement<Svg, (), ()> = leptos::svg::svg();
         svg
             .inner_html(icon.data)
